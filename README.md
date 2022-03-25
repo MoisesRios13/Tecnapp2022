@@ -1,4 +1,4 @@
-<h1 align="center"><img src="public/appname.svg" width="500"></h1>
+<h1 align="center"><img src="public\imgs\tecnapp.png" width="500"></h1>
 
 ## Version 2.X is here!!
 
