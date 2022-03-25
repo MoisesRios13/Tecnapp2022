@@ -2,4 +2,4 @@
 
 Este es el control de versiones del sistemas Tecnapp
 
-<h1> Prueba edicion readme</h1>
+<h1> Modificando prueba de edicion de LEO</h1>
