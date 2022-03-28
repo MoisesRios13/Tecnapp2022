@@ -153,7 +153,7 @@ transform: scale(0.7);
 }
 
 .popup1 h2{
-    font-size: 36px;
+    font-size: 26px;
     margin-bottom: 50px;
     opacity: 0;
 transition: 0.3s ease all;
@@ -164,9 +164,9 @@ transition: 0.3s ease all;
 
 
 .popup1 p{
-    font-size: 26px;
+    font-size: 19px;
     margin-bottom: 30px;
-   
+   text-align: justify;
  opacity: 0;
 
 
@@ -230,7 +230,7 @@ transform: scale(0.7);
 }
 
 .popup2 h2{
-    font-size: 36px;
+    font-size: 26px;
     margin-bottom: 50px;
     opacity: 0;
 transition: 0.3s ease all;
@@ -241,9 +241,9 @@ transition: 0.3s ease all;
 
 
 .popup2 p{
-    font-size: 26px;
+    font-size: 19px;
     margin-bottom: 30px;
-   
+   text-align: justify;
  opacity: 0;
 
 
@@ -306,7 +306,7 @@ transform: scale(0.7);
 }
 
 .popup3 h2{
-    font-size: 36px;
+    font-size: 26px;
     margin-bottom: 50px;
     opacity: 0;
 transition: 0.3s ease all;
@@ -317,9 +317,9 @@ transition: 0.3s ease all;
 
 
 .popup3 p{
-    font-size: 26px;
+    font-size: 19px;
     margin-bottom: 30px;
-   
+   text-align: justify;
  opacity: 0;
 
 
@@ -381,8 +381,8 @@ transform: scale(0.7);
 }
 
 .popup4 h2{
-    font-size: 36px;
-    margin-bottom: 50px;
+    font-size: 26px;
+    margin-bottom: 25px;
     opacity: 0;
 transition: 0.3s ease all;
 
@@ -392,9 +392,9 @@ transition: 0.3s ease all;
 
 
 .popup4 p{
-    font-size: 26px;
+    font-size: 19px;
     margin-bottom: 30px;
-   
+  
  opacity: 0;
 
 
