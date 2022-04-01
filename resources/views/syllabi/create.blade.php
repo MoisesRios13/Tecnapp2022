@@ -7,11 +7,11 @@
         <div class="col-xs-11 col-sm-11 col-md-11 col-lg-10 col-xl-10 col-xxl-10">
             <div class="row pt-2">
                 <div class="col-6 ps-4">
-                    <h1 class="display-6 mb-3"><i class="bi bi-journal-text"></i> Create Syllabus</h1>
+                    <h1 class="display-6 mb-3"><i class="bi bi-journal-text"></i> Crear Novedad </h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="{{route('home')}}">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Create Syllabus</li>
+                            <li class="breadcrumb-item"><a href="{{route('home')}}">Mesa de trabajo</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Crear Novedad</li>
                         </ol>
                     </nav>
                     @include('session-messages')
@@ -36,15 +36,15 @@
                                 </select>
                             </div>
                             <div class="mb-3">
-                                <label for="syllabus-name" class="form-label">Syllabus Name</label>
-                                <input type="text" class="form-control" id="syllabus-name" name="syllabus_name" placeholder="Syllabus Name" required>
+                                <label for="syllabus-name" class="form-label">Tipo de novedad</label>
+                                <input type="text" class="form-control" id="syllabus-name" name="syllabus_name" placeholder="Tipo de novedad" required>
                             </div>
                             <div class="form-group mb-3">
-                                <label for="syllabus-file" class="form-label">Syllabus File</label>
+                                <label for="syllabus-file" class="form-label">Adjuntar Documento Novedad</label>
                                 <input type="file" name="file" class="form-control" id="syllabus-file" accept=".jpg,.jpeg,.bmp,.png,.gif,.doc,.docx,.csv,.rtf,.xlsx,.xls,.txt,.pdf,.zip" required>
                             </div>
                             <div class="mb-4">
-                                <button type="submit" class="btn btn-outline-primary"><i class="bi bi-check2"></i> Create</button>
+                                <button type="submit" class="btn btn-outline-primary"><i class="bi bi-check2"></i> Enviar Novedad</button>
                             </div>
                         </form>
                     </div>

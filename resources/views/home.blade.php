@@ -79,12 +79,12 @@
                         <div class="col">
                             <div class="p-3 text-white bg-dark rounded-3">
                                 <h3>Bienvenido a Tecnapp !</h3>
-                                <p><i class="bi bi-emoji-heart-eyes"></i> Software de gestión académica.</p>
+                                <p><i class="bi bi-emoji-heart-eyes"></i> </p>
                             </div>
                         </div>
                         <div class="col">
                             <div class="p-3 bg-white border rounded-3" style="height: 100%;">
-                                <h3>Gestion mejor de escuela ♥</h3>
+                                <h3>Gestion Mejor de Jardin</h3>
                                 
                             </div>
                         </div>
