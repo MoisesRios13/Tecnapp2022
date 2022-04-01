@@ -85,7 +85,7 @@
                         <div class="col">
                             <div class="p-3 bg-white border rounded-3" style="height: 100%;">
                                 <h3>Gestion mejor de escuela ♥</h3>
-                                <p class="text-end">with <i class="bi bi-lightning"></i> <a href="https://github.com/changeweb/Unifiedtransform" target="_blank" style="text-decoration: none;">Unifiedtransform</a> <i class="bi bi-lightning"></i>.</p>
+                                
                             </div>
                         </div>
                     </div>
@@ -112,7 +112,7 @@
                         </div>
                         <div class="col">
                             <div class="card mb-3">
-                                <div class="card-header bg-transparent d-flex justify-content-between"><span><i class="bi bi-megaphone me-2"></i> Noticias</span> {{ $notices->links() }}</div>
+                               
                                 <div class="card-body p-0 text-dark">
                                     <div>
                                         @isset($notices)
@@ -130,9 +130,7 @@
                                             </div>
                                             @endforeach
                                             @endisset
-                                            @if(count($notices) < 1)
-                                                <div class="p-3">No notices</div>
-                                            @endif
+                                            
                                         </div>
                                     </div>
                                 </div>

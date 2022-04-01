@@ -7,14 +7,14 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Unifiedtransform') }}</title>
-
-    <link rel="shortcut icon" href="{{asset('favicon_io/favicon.ico')}}">
-    <link rel="shortcut icon" sizes="16x16" href="{{asset('favicon_io/favicon-16x16.png')}}">
-    <link rel="shortcut icon" sizes="32x32" href="{{asset('favicon_io/favicon-32x32.png')}}">
-    <link rel="apple-touch-icon" href="{{asset('favicon_io/apple-touch-icon.png')}}">
-    <link rel="icon" href="{{asset('favicon_io/android-chrome-192x192.png')}}" sizes="192x192">
-    <link rel="icon" href="{{asset('favicon_io/android-chrome-512x512.png')}}" sizes="512x512">
+    <!--<title>{{ config('app.name', 'Unifiedtransform') }}</title> -->
+    <title>Tecnapp</title>
+    <link rel="shortcut icon" href="{{asset('favicon_io/tecnapp.png')}}">
+    <link rel="shortcut icon" sizes="16x16" href="{{asset('favicon_io/tecnapp.png')}}">
+    <link rel="shortcut icon" sizes="32x32" href="{{asset('favicon_io/tecnapp.png')}}">
+    <link rel="apple-touch-icon" href="{{asset('favicon_io/tecnapp.png')}}">
+    <link rel="icon" href="{{asset('favicon_io/tecnapp.png')}}" sizes="192x192">
+    <link rel="icon" href="{{asset('favicon_io/tecnapp.png')}}" sizes="512x512">
 
     <!-- Scripts -->
     <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
