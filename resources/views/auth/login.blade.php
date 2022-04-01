@@ -77,7 +77,7 @@
                     background-repeat: no-repeat; 
                     margin: 0;
                     align-items: center; 
-                    background-image: url({{asset('imgs/Tecnapp-1920-1080.png')}});
+                    background-image: url({{asset('imgs/login.png')}});
                     background-color: blue;
                     font-family: 'Nunito';
                 }

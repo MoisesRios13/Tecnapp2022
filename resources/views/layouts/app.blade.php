@@ -24,14 +24,19 @@
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
-   
+   <style>
+        {
+        background-color: rgba(255, 255, 255,0.6);
+
+       }
+   </style>
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
         <nav class="navbar sticky-top navbar-expand-md navbar-light bg-white border-btm-e6">
-            <div class="container">
+            <div class="container" >
                 <a class="navbar-brand" href="{{ url('/') }}">
                     <i class="bi bi-house"></i> {{ config('app.name', 'Laravel') }}
                 </a>
@@ -102,8 +107,6 @@
         </main>
     </div>
 
-    <div id="watermark">
-        <p>Tecnapp</p>
-    </div>
+    
 </body>
 </html>
